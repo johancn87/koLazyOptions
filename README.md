@@ -10,6 +10,8 @@ A JavaScript library by Johan Carlsson.
 
 See the [project homepage](http://johancn87.github.io/koLazyOptions).
 
+Based on https://blog.safaribooksonline.com/2014/02/28/lazy-loading-knockout-js/
+
 ## Installation
 
 Using Bower:
