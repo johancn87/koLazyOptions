@@ -8,7 +8,7 @@ The Description
 
 A JavaScript library by Johan Carlsson.
 
-See the [project homepage](http://johancn87@gmail.com.github.io/koLazyOptions).
+See the [project homepage](http://johancn87.github.io/koLazyOptions).
 
 ## Installation
 
@@ -16,7 +16,7 @@ Using Bower:
 
     bower install koLazyOptions
 
-Or grab the [source](https://github.com/johancn87@gmail.com/koLazyOptions/dist/koLazyOptions.js) ([minified](https://github.com/johancn87@gmail.com/koLazyOptions/dist/koLazyOptions.min.js)).
+Or grab the [source](https://github.com/johancn87/koLazyOptions/dist/koLazyOptions.js) ([minified](https://github.com/johancn87/koLazyOptions/dist/koLazyOptions.min.js)).
 
 ## Usage
 
