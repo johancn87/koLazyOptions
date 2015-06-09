@@ -16,7 +16,7 @@ ko.bindingHandlers.lazyOptions = {
 
           if (optionsValue) {
             $.each(valueAccessor(), function(i, item) {
-              if (item[optionsValue] == value) {
+              if (item[optionsValue] === value) {
                 value = item;
                 return false;
               }
