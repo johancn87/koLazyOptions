@@ -12,8 +12,9 @@ ko.bindingHandlers.lazyOptions = {
           var optionsValue = allBindings.get("optionsValue");
 
           if (optionsValue) {
-            $.each(valueAccessor(), function(i, item) {
-              if (item[optionsValue] == value) {
+            var actualArray = ko.unwrap(valueAccessor());
+            $.each(actualArray, function(i, item) {
+              if (item[optionsValue] === value) {
                 value = item;
                 return false;
               }
